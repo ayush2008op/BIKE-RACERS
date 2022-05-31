@@ -10,9 +10,9 @@ var bikes = [];
 
 function preload() {
   backgroundImage = loadImage("./assets/background.png");
-  bike1_img = loadImage("../assets/bike1.png");
-  bike2_img = loadImage("../assets/bike2.png");
-  track = loadImage("../assets/track.jpg");
+  bike1_img = loadImage("./assets/bike1.png");
+  bike2_img = loadImage("./assets/bike2.png");
+  track = loadImage("./assets/track.jpg");
   fuelImage = loadImage("./assets/fuel.png");
   powerCoinImage = loadImage("./assets/goldCoin.png");
   obstacle1Image = loadImage("./assets/obstacle1.png");
